@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    align-items: center;
+
+    &__title {
+        font-size: 2rem;
+        color: #fefefe;
+    }
+
+    @media screen and (max-width: 320px) {
+        padding: 0 8px;
+
+        &__title {
+            font-size: 1.5rem;
+        }
+    }
+}

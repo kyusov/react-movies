@@ -1,0 +1,27 @@
+.search {
+    display: flex;
+    align-items: center;
+
+    &__input {
+        box-sizing: border-box;
+        width: 100%;
+        border: 1px solid #fefefe;
+        border-radius: 5px;
+        outline: none;
+        padding: .5rem;
+
+        font-size: 1rem;
+    }
+
+    @media screen and (max-width: 375px) {
+        padding-left: .5rem;
+    }
+
+    @media screen and (max-width: 320px) {
+        padding: 0 .5rem;
+        &__input {
+            padding: .25rem;
+            font-size: .9rem;
+        }
+    }
+}
